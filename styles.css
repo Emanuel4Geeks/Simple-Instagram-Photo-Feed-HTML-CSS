@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	padding: 1em;
+}
+
+header h1 {
+	width: calc(50% - 0.5em);
+}
+
+main {
+	display: flex;
+	background-color: #eaeaea;
+	padding: 2em;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+article {
+	width: 50%;
+	margin: 2em;
+	background-color: white;
+}
+
+div.title {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+}
+
+h3 {
+	font-weight: bolder;
+}
+
+img {
+	width: 100%;
+}
+
+div.desc {
+	padding: 1em;
+}
